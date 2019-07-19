@@ -6,6 +6,8 @@
 //  Copyright © 2019 Saurabh Chandra Bose. All rights reserved.
 //
 
+// Edited on Commit Page
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -13,6 +15,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
 
 
